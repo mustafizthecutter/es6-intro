@@ -55,5 +55,18 @@
 // numbers.push(54);
 // console.log(numbers2);
 
-const square = (x) => x * x;
-console.log(square(9));
+// const square = (x) => x * x;
+// console.log(square(9));
+
+const mustafiz = { age: 24, address: 'sylhet', ovvash: { food: 'fuchka', habit: { leisure: 'mobile tipa', olosh: 'gan shuna' }, sokh: 'travelling' }, phone: 'o02004959', color: 'black' };
+// console.log(mustafiz.age, mustafiz.phone);
+// const age = mustafiz.age;
+// console.log(age);
+// const { phone, color, age } = mustafiz;
+// console.log(phone, color, age);
+// const { sokh, habit } = mustafiz.ovvash;
+// console.log(sokh, habit);
+// const { leisure } = mustafiz.ovvash.habit;
+// console.log(leisure);
+const olosh = mustafiz.ovvash.habit.olosh;
+console.log(olosh);
