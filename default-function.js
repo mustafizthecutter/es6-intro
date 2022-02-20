@@ -59,6 +59,7 @@
 // console.log(square(9));
 
 const mustafiz = { age: 24, address: 'sylhet', ovvash: { food: 'fuchka', habit: { leisure: 'mobile tipa', olosh: 'gan shuna' }, sokh: 'travelling' }, phone: 'o02004959', color: 'black' };
+console.log(mustafiz.dipu?.chiku?.olosh);
 // console.log(mustafiz.age, mustafiz.phone);
 // const age = mustafiz.age;
 // console.log(age);
@@ -68,5 +69,7 @@ const mustafiz = { age: 24, address: 'sylhet', ovvash: { food: 'fuchka', habit: 
 // console.log(sokh, habit);
 // const { leisure } = mustafiz.ovvash.habit;
 // console.log(leisure);
-const olosh = mustafiz.ovvash.habit.olosh;
-console.log(olosh);
+// const olosh = mustafiz.ovvash.habit.olosh;
+// console.log(olosh);
+// const [r, o, b] = [45, 67, 43];
+// console.log(r, o);
